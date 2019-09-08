@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="100dp">
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="User Name: "
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_column="2"
+            android:minWidth="150dp"
+            android:id="@+id/NameET"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="User Gender: "
+            android:textSize="20sp"/>/>
+        <EditText
+            android:layout_column="2"
+            android:id="@+id/GenderET"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="User Location: "
+            android:textSize="20sp"/>/>
+        <EditText
+            android:layout_column="2"
+            android:id="@+id/LocationET"/>
+    </TableRow>
+
+    </TableLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="UPDATE"
+        android:id="@+id/updateBtn"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

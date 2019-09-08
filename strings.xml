@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">User_list_assignment</string>
+    <string name="main_activity_title">List of Users</string>
+    <string name="second_activity_title">User information</string>
+</resources>
